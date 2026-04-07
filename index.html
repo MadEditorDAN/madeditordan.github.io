@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ViGaVault</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #8B0000; /* ViGaVault brand seed color */
+        }
+        h1 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            margin-top: 30px;
+            font-size: 1.3em;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+        .date {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for ViGaVault</h1>
+        <p class="date"><strong>Effective Date:</strong> April 3, 2026</p>
+
+        <p>Welcome to ViGaVault. Your privacy is critically important to us. ViGaVault is designed as an "offline-first" application. This means that the core philosophy of the app is zero-trust and local ownership.</p>
+        <p>This Privacy Policy explains how your data is handled when you use the ViGaVault mobile application.</p>
+
+        <h2>1. Data Collection and Storage</h2>
+        <p><strong>We do not collect, store, or transmit your personal data to any servers owned or operated by ViGaVault.</strong></p>
+        <ul>
+            <li><strong>Local Database:</strong> All of your library data, including game titles, genres, release dates, and downloaded cover images, are stored locally on your device's internal storage.</li>
+            <li><strong>Credentials:</strong> Your API keys (e.g., Steam Web API, IGDB, SteamGridDB) and OAuth tokens (e.g., Epic Games, GOG) are stored securely inside your device's hardware-encrypted keystore. They never leave your device except to authenticate directly with the respective official services.</li>
+        </ul>
+
+        <h2>2. Third-Party Services and APIs</h2>
+        <p>To build your library and fetch metadata, ViGaVault communicates directly from your device to third-party APIs. By connecting these services, you are subject to their respective privacy policies:</p>
+        <ul>
+            <li><strong>Steam (Valve Corporation):</strong> Used to fetch your Steam game library.</li>
+            <li><strong>GOG (CD Projekt):</strong> Used to fetch your GOG game library.</li>
+            <li><strong>Epic Games:</strong> Used to fetch your Epic Games library.</li>
+            <li><strong>IGDB (Twitch/Amazon):</strong> Used to scrape metadata and high-resolution cover art.</li>
+            <li><strong>SteamGridDB:</strong> Used to fetch community-created cover art.</li>
+        </ul>
+
+        <h2>3. Advertising (Google AdMob)</h2>
+        <p>ViGaVault uses Google AdMob to display banner advertisements. Google AdMob is a third-party service that may collect and use certain data (such as your device's advertising ID, IP address, and interaction data) to provide personalized or non-personalized advertisements.</p>
+        <p>For more information on how Google uses this data, please review Google's Privacy & Terms.</p>
+
+        <h2>4. Device Permissions</h2>
+        <p>ViGaVault requires the following device permissions to function correctly:</p>
+        <ul>
+            <li><strong>Internet Access:</strong> Required to communicate with the third-party platforms mentioned above, download cover art, and serve advertisements via Google AdMob.</li>
+            <li><strong>Storage Access (Android SAF):</strong> When you choose to Backup or Restore your library, the app utilizes the native Android Storage Access Framework (File Picker). The app only gains access to the specific file or folder you explicitly choose to save to or read from.</li>
+        </ul>
+
+        <h2>5. Backups and Security</h2>
+        <p>If you choose to use the "Backup Library" feature, ViGaVault compresses your database and media into a local archive. If you opt to include your API keys and accounts in this backup, the app will mandate a personal password. This password is used to mathematically encrypt the archive using military-grade AES-256 encryption. We cannot recover your password or your data if you lose it.</p>
+
+        <h2>6. Analytics and Telemetry</h2>
+        <p>ViGaVault contains <strong>no tracking, no analytics, and no telemetry code</strong>. We do not track how many games you have, what platforms you use, or how often you open the app.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by updating the "Effective Date" at the top of this document. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions or suggestions about our Privacy Policy, please contact the developer via the official GitHub repository issues page.</p>
+    </div>
+</body>
+</html>
